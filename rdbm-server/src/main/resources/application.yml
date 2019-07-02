@@ -1,0 +1,14 @@
+spring:
+  security:
+    user:
+      name: tom
+      password: '{bcrypt}$2a$10$CXXWlUKPKfdwgEvNHIFdj.REpPkI0ualRD5Vuu5twVke.Vl3p3RP2'
+  datasource:
+    url: jdbc:mysql://localhost:3306/OAuth2
+    username: root
+    password: password
+    driver-class-name: com.mysql.cj.jdbc.Driver
+  jpa:
+    show-sql: true
+    
+debug: true
